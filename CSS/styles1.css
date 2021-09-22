@@ -1,3 +1,9 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
 html {
   font-size: 90%;
 }
@@ -15,7 +21,48 @@ h1 {
   font-size: 3rem;
   margin-top: 1rem;
 }
+.input {
+  padding: 0.7rem 2.4rem;
+  border-radius: 40px;
+  border: 1px solid lightgrey;
+  outline: 0;
+}
 
+::placeholder {
+  color: lightgrey;
+  font-weight: 500;
+}
+.button {
+  background-color: white;
+  border-radius: 40px;
+  cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 600;
+  padding: 0.7rem 2.5rem;
+  text-transform: uppercase;
+  white-space: nowrap;
+  text-align: center;
+  margin: 0.3rem;
+}
+.button-outline {
+  border: 2px solid darkblue;
+}
+.button-outline:hover {
+  background-color: darkblue;
+  color: white;
+}
+.button-full {
+  background-color: dodgerblue;
+  border: 0;
+  color: white;
+}
+.button-full:hover {
+  background-color: rgb(101, 164, 247);
+}
+.button-block {
+  display: inline-block;
+  width: 100%;
+}
 .list {
   list-style: none;
   color: darkblue;
@@ -43,7 +90,19 @@ h1 {
   color: white;
   padding-bottom: 1px;
 }
-
+.search {
+  border: 1px solid lightgrey;
+  border-radius: 40px;
+  display: flex;
+}
+.search .input {
+  border: 0;
+  flex-grow: 1;
+  padding: 0.7rem 0.5rem;
+}
+.search .button {
+  margin: 1px;
+}
 .icon {
   height: 40px;
   width: 40px;
