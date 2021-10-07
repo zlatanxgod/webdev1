@@ -38,11 +38,11 @@ h1 {
   cursor: pointer;
   font-size: 0.8rem;
   font-weight: 600;
+  margin: 0.3rem;
   padding: 0.7rem 2.5rem;
+  text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
-  text-align: center;
-  margin: 0.3rem;
 }
 .button-outline {
   border: 2px solid darkblue;
@@ -112,8 +112,8 @@ h1 {
   filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg);
 }
 .icon-container {
-  width: 65px;
-  height: 65px;
+  width: 50px;
+  height: 50px;
   background: #f3f9f8;
   border-radius: 50%;
   display: inline-flex;
