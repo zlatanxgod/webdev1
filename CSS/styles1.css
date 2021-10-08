@@ -38,8 +38,8 @@ h1 {
   cursor: pointer;
   font-size: 0.8rem;
   font-weight: 600;
-  margin: 0.3rem;
   padding: 0.7rem 2.5rem;
+  margin-right: 10px;
   text-align: center;
   text-transform: uppercase;
   white-space: nowrap;
@@ -75,17 +75,19 @@ h1 {
 }
 .list--tick {
   list-style-image: url(../material/icons/tick.svg);
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   padding-left: 2rem;
 }
 .list--tick .list_item {
   padding-left: 0.5rem;
+  margin: 1.2rem 0;
 }
 .badge {
-  background-color: dodgerblue;
+  background-color: rgb(247, 177, 250);
   border-radius: 20px;
   white-space: nowrap;
-  padding: 0rem 0.3rem;
+  padding: 0rem 0.4rem;
+  margin: 0 0.5rem;
   font-size: 0.9rem;
   color: white;
   padding-bottom: 1px;
@@ -133,4 +135,51 @@ h1 {
 }
 .link-arrow:hover::after {
   margin-left: 5px;
+}
+
+.card {
+  border-radius: 7px;
+  color: grey;
+  box-shadow: 0 0 20px 10px lightgrey;
+  overflow: hidden;
+}
+
+.card__header,
+.card__body {
+  padding: 1rem 1rem;
+}
+
+.cardprime .card__header {
+  background: hotpink;
+  color: white;
+}
+
+.plan {
+  width: 20vw;
+}
+.plan__name {
+  font-weight: 500;
+  font-size: 1.2rem;
+  margin: 5px 2px;
+}
+
+.plan__price {
+  font-size: 2rem;
+}
+.plan__billing-cycle {
+  font-weight: 300;
+  opacity: 0.8;
+}
+
+.plan__description {
+  letter-spacing: 1px;
+  font-weight: 300;
+  font-size: 0.9rem;
+  margin-top: 5px;
+  display: block;
+}
+
+.popular {
+  width: 40px;
+  display: inline-block;
 }
