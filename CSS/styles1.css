@@ -203,3 +203,28 @@ h3 {
 .media_image {
   margin-top: 0.7rem;
 }
+
+.quotes {
+  color: rgb(184, 178, 178);
+  font-style: italic;
+  font-size: 1.5rem;
+}
+.quoteblock {
+  padding-left: 20px;
+}
+
+.quoteblock .media_image {
+  width: 20px;
+  overflow: hidden;
+  margin-right: 10px;
+}
+.quote_line {
+  position: relative;
+  bottom: 17px;
+}
+.footer_title {
+  color: darkblue;
+}
+.footer_des {
+  margin-top: 5px;
+}
