@@ -113,6 +113,13 @@ h1 {
 .icon-color {
   filter: invert(0.5) sepia(1) saturate(5) hue-rotate(175deg);
 }
+.icon-color2 {
+  filter: invert(1);
+}
+.icon_small {
+  height: 30px;
+  width: 30px;
+}
 .icon-container {
   width: 50px;
   height: 50px;
@@ -121,6 +128,10 @@ h1 {
   display: inline-flex;
   justify-content: center;
   align-items: center;
+}
+
+.icon-container_color {
+  background: red;
 }
 
 .link-arrow {
@@ -155,6 +166,8 @@ h1 {
 }
 .card__header {
   position: relative;
+}
+.card_inline {
 }
 
 .plan {
@@ -227,4 +240,29 @@ h3 {
 }
 .footer_des {
   margin-top: 5px;
+}
+
+/* Grids */
+.grid {
+  display: grid;
+}
+
+.grid--1x2 {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.testimonial {
+  padding: 1.5rem;
+}
+
+.testimonial_image {
+  position: relative;
+}
+.testimonial_image > .icon-container {
+  position: absolute;
+  top: 2rem;
+  right: -0.3rem;
+}
+.grid_test {
+  grid-template-columns: 1fr 2.7fr;
 }
